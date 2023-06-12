@@ -5,7 +5,7 @@ static const Block blocks[] = {
 	//{"wlan0: ", "ip a | grep wlan0 | grep inet | awk '{print $2}'", 60, 0},
 
 	/* {" ", "acpi | awk '{print $4}'", 60, 0}, */
-	//{"Bat: ", "acpi | awk '{print $4}'", 60, 0},
+	{"", "sb-battery", 60, 0},
 
 	{"", "date '+%b %d (%a) %I:%M%p'", 5, 0},
 };
